@@ -688,6 +688,11 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>
@@ -726,6 +731,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="RatWinVL" ID="{C8458E06-9A61-46FC-B9FC-AD3A6EB6C7C3}" ShortID="370757115">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
@@ -761,9 +773,9 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
+										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -777,6 +789,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="RatLose2VL" ID="{12DA845D-2651-4546-AACF-6D981749A4A9}" ShortID="625804490">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
@@ -799,6 +818,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="RatLoseVL" ID="{FFC8A093-0398-4343-BE6F-7DC897383C78}" ShortID="233725682">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>

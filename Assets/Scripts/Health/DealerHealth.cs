@@ -9,6 +9,10 @@ using static System.TimeZoneInfo;
 
 public class DealerHealth : MonoBehaviour
 {
+
+    public AK.Wwise.Event SmokePuffSFX;
+
+
     private void Awake()
     {
     }
@@ -77,6 +81,7 @@ public class DealerHealth : MonoBehaviour
         ui.SetActive(false);
         
         smokePuff.Play();
+        SmokePuffSFX.Post(gameObject);
 
         yield return new WaitForSeconds(3);
 

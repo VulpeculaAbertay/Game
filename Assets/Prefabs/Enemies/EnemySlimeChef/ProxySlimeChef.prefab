@@ -218,9 +218,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60db1c462d9136458b02f7acf517c9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SmokePuffSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1999d9dede592e849a2511cab230ade8,
+      type: 2}
   currentHealth: 4
   activeEnemy: 0
   pcntChanceOfRandomHand: 50
+  uiIcon: {fileID: 0}
+  smokePuff: {fileID: 0}
+  model: {fileID: 0}
+  ui: {fileID: 0}
 --- !u!114 &8102413137354905691
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -49,7 +49,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{A070DE59-BE6F-AC45-3861-39AB90C936A2}">
+		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{4923D2FE-B3F0-F6DB-FA20-EB2F5C3CB80A}">
 			<ShortName>CommonEvents</ShortName>
 			<Path>CommonEvents.bnk</Path>
 			<Media>
@@ -340,5 +340,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{997466B3-62BF-F4D8-94A6-3E8F69E20443}</FileHash>
+	<FileHash>{6945DA9F-F20A-02C1-C081-AD50F4B226DC}</FileHash>
 </SoundBanksInfo>

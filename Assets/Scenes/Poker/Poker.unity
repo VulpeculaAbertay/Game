@@ -9361,6 +9361,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeEnemy: {fileID: 0}
+  RatWin:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7c1ae4ea750e97b42bc6c394f043735a,
+      type: 2}
+  RatLose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 60cab25199ee444489309d15ed7c54b6,
+      type: 2}
   startingCardsAmount: 7
   currentBet: 0
   currentPhase: 0

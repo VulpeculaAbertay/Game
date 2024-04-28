@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6520efe4ebd65d41bedcccfec1a2db7f
     GuidInternal: 
-    m_lastTime: -8584874568676050958
+    m_lastTime: -8584872846537827851
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -101,7 +101,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f2447ec76069e842bc90e2a3c1bc6a0d
     GuidInternal: 
-    m_lastTime: -8584874568665763265
+    m_lastTime: -8584872844821674498
     List:
     - name: CommonEvents
       guid: 76dbe5716303ea4a86c85abf37133f27
@@ -143,7 +143,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: d62c319f63e7f349b6bc73e971905b50
     GuidInternal: 
-    m_lastTime: -8584874568690379120
+    m_lastTime: -8584872844864390681
     List:
     - name: Bet
       guid: 7b6f474bd45f0f4faf3e7f51e27af52c
@@ -196,6 +196,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.8238515
       minDuration: 0.6538914
+    - name: Dialogue
+      guid: dfc436dc10968941aabd720eea29325c
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      Path: Events\Default Work Unit\Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 913b04cb4d133b4ba9ee6afcab87f887
       id: 2385628198
@@ -230,6 +247,72 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Rat
+      guid: 42b209d54f8a9f4692ceb6f987cd840a
+      id: 1047714102
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      - ElementName: Rat
+        ObjectType: 4
+        guid: 42b209d54f8a9f4692ceb6f987cd840a
+      Path: Events\Default Work Unit\Dialogue\Rat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RatLose
+      guid: da54e531318fdc409e367697e0ffc1a1
+      id: 1995685089
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      - ElementName: Rat
+        ObjectType: 4
+        guid: 42b209d54f8a9f4692ceb6f987cd840a
+      - ElementName: RatLose
+        ObjectType: 3
+        guid: da54e531318fdc409e367697e0ffc1a1
+      Path: Events\Default Work Unit\Dialogue\Rat\RatLose
+      maxAttenuation: 0
+      maxDuration: 1.48839
+      minDuration: 1.4373016
+    - name: RatWin
+      guid: f06aa99db1a99a4fa8ed1fee6cd4cb31
+      id: 4264003164
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      - ElementName: Rat
+        ObjectType: 4
+        guid: 42b209d54f8a9f4692ceb6f987cd840a
+      - ElementName: RatWin
+        ObjectType: 3
+        guid: f06aa99db1a99a4fa8ed1fee6cd4cb31
+      Path: Events\Default Work Unit\Dialogue\Rat\RatWin
+      maxAttenuation: 0
+      maxDuration: 2.6190476
+      minDuration: 1.996916
     - name: SlotMachineWin
       guid: 3c9337e897b1194782da95e708cbfdd4
       id: 2127906762
@@ -247,6 +330,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7328571
       minDuration: 1.4571533
+    - name: SmokePuff
+      guid: 661d873bcb789749be78aff9b4907c11
+      id: 3240102813
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: SmokePuff
+        ObjectType: 3
+        guid: 661d873bcb789749be78aff9b4907c11
+      Path: Events\Default Work Unit\SmokePuff
+      maxAttenuation: 0
+      maxDuration: 0.5860553
+      minDuration: 0.4928118
     - name: SplashScreen
       guid: d68f53ff001abe4bb9d323b48f31ae08
       id: 3140745524
@@ -516,7 +616,7 @@ MonoBehaviour:
     m_lastTime: -8584874568665753109
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000c0000000c1000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000021000000c0000000c1000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
