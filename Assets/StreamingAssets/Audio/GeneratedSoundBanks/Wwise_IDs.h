@@ -18,7 +18,10 @@ namespace AK
         static const AkUniqueID CARDSHUFFLE = 723374694U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID RATLOSE = 1995685089U;
+        static const AkUniqueID RATWIN = 4264003164U;
         static const AkUniqueID SLOTMACHINEWIN = 2127906762U;
+        static const AkUniqueID SMOKEPUFF = 3240102813U;
         static const AkUniqueID SPLASHSCREEN = 3140745524U;
         static const AkUniqueID VIVALASMAGES = 3760300016U;
     } // namespace EVENTS
@@ -32,9 +35,15 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BASEMENT = 1413413702U;
+                static const AkUniqueID CASINO = 200935300U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID POKER = 1859141876U;
+                static const AkUniqueID POKERLVL2 = 1493892136U;
+                static const AkUniqueID POKERLVL3 = 1493892137U;
+                static const AkUniqueID POKERWIZARD = 1996063713U;
+                static const AkUniqueID SERVICEAREA = 698426525U;
+                static const AkUniqueID WIZARDOFFICE = 3789859536U;
             } // namespace STATE
         } // namespace MUSIC
 

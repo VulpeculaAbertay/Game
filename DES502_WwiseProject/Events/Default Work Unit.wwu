@@ -91,6 +91,47 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Dialogue" ID="{DC36C4DF-9610-4189-AABD-720EEA29325C}" ShortID="214924515">
+					<ChildrenList>
+						<Folder Name="Rat" ID="{D509B242-8A4F-469F-92CE-B6F987CD840A}" ShortID="457369818">
+							<ChildrenList>
+								<Event Name="RatWin" ID="{9DA96AF0-A9B1-4F9A-A8ED-1FEE6CD4CB31}">
+									<ChildrenList>
+										<Action Name="" ID="{0421F3B7-11D5-4288-A11B-657C50B136D1}" ShortID="231584544">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}" WorkUnitID="{A66E9D4F-FFAB-42CD-961A-AF51BCBE2AF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="RatLose" ID="{31E554DA-8F31-40DC-9E36-7697E0FFC1A1}">
+									<ChildrenList>
+										<Action Name="" ID="{6F77ECE3-2ECB-4831-B32F-9D4646E0BB3F}" ShortID="9250187">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}" WorkUnitID="{A66E9D4F-FFAB-42CD-961A-AF51BCBE2AF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SmokePuff" ID="{3B871D66-78CB-4997-BE78-AFF9B4907C11}">
+					<ChildrenList>
+						<Action Name="" ID="{4EF2786A-D7CC-4EF8-A7D5-94AA7A187F45}" ShortID="552370486">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SmokePuff" ID="{D583EB2E-4209-416B-981E-215AA74EE9F4}" WorkUnitID="{A66E9D4F-FFAB-42CD-961A-AF51BCBE2AF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

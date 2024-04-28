@@ -2,10 +2,16 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	200935300	Casino	Music			
+	698426525	ServiceArea	Music			
 	748895195	None	Music			
 	1413413702	Basement	Music			
+	1493892136	PokerLvl2	Music			
+	1493892137	PokerLvl3	Music			
 	1859141876	Poker	Music			
+	1996063713	PokerWizard	Music			
 	3604647259	MainMenu	Music			
+	3789859536	WizardOffice	Music			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	493417818	Music Audio Bus			\Default Work Unit\Master Audio Bus\Music Audio Bus	

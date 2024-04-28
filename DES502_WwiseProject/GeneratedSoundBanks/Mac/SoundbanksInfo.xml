@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{480E3AD5-7866-A58E-E4F5-DBAC45598DE2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DEF07FD7-788D-F1EC-EC5C-EB7D5EBE7427}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -49,13 +49,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{2D11B6B9-8ED9-2A3F-86A4-CF2B9B0CEAEE}">
+		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{A070DE59-BE6F-AC45-3861-39AB90C936A2}">
 			<ShortName>CommonEvents</ShortName>
 			<Path>CommonEvents.bnk</Path>
 			<Media>
 				<File Id="21082198" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CardShuffle.wav</ShortName>
 					<CachePath>SFX/CardShuffle_C2A3E27A.wem</CachePath>
+				</File>
+				<File Id="34987519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PuffOfSmoke.wav</ShortName>
+					<CachePath>SFX/PuffOfSmoke_818F3B66.wem</CachePath>
 				</File>
 				<File Id="246502203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootStep5.wav</ShortName>
@@ -73,6 +77,18 @@
 					<ShortName>VivaLasMages.wav</ShortName>
 					<CachePath>SFX/VivaLasMages_40BBC9BE.wem</CachePath>
 				</File>
+				<File Id="434401296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RatLoseVL.wav</ShortName>
+					<CachePath>SFX/RatLoseVL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="442831581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RatWinVL.wav</ShortName>
+					<CachePath>SFX/RatWinVL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472751316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RatWin2VL.wav</ShortName>
+					<CachePath>SFX/RatWin2VL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="477192504" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootStep2.wav</ShortName>
 					<CachePath>SFX/FootStep2_03395070.wem</CachePath>
@@ -88,6 +104,10 @@
 				<File Id="564346088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>slotmachineWin.wav</ShortName>
 					<CachePath>SFX/slotmachineWin_9E5CD947.wem</CachePath>
+				</File>
+				<File Id="583465700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RatLose2VL.wav</ShortName>
+					<CachePath>SFX/RatLose2VL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="599570550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SplashScreen.wav</ShortName>
@@ -115,6 +135,7 @@
 					<Plugin Id="447537854" Name="Static_Sibilance_Remover_Male (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 				<ShareSets>
+					<Plugin Id="3407225994" Name="Phone_Booth" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3851006675" Name="Secret_message_Distant" LibName="Wwise Harmonizer" LibId="9043971"/>
 				</ShareSets>
 			</Plugins>
@@ -146,10 +167,32 @@
 						<MediaRef Id="1008269798"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1995685089" Name="RatLose" DurationType="OneShot" DurationMin="1.4373016" DurationMax="1.48839">
+					<MediaRefs>
+						<MediaRef Id="434401296"/>
+						<MediaRef Id="583465700"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4264003164" Name="RatWin" DurationType="OneShot" DurationMin="1.996916" DurationMax="2.6190476">
+					<MediaRefs>
+						<MediaRef Id="442831581"/>
+						<MediaRef Id="472751316"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2127906762" Name="SlotMachineWin" DurationType="OneShot" DurationMin="1.4571533" DurationMax="1.7328571">
 					<MediaRefs>
 						<MediaRef Id="564346088"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="3240102813" Name="SmokePuff" DurationType="OneShot" DurationMin="0.4928118" DurationMax="0.5860553">
+					<MediaRefs>
+						<MediaRef Id="34987519"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3407225994"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3140745524" Name="SplashScreen" DurationType="OneShot" DurationMin="2.975325" DurationMax="3.333567">
 					<MediaRefs>
@@ -297,5 +340,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{91058A6B-EC95-2927-91D0-4CB7B6BDF6C0}</FileHash>
+	<FileHash>{997466B3-62BF-F4D8-94A6-3E8F69E20443}</FileHash>
 </SoundBanksInfo>
