@@ -183,6 +183,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3640167587778417208, guid: 25543644111759b43a3bb0b3dcd24b9b,
+        type: 3}
+      propertyPath: sceneName
+      value: BasementRoom2
+      objectReference: {fileID: 0}
     - target: {fileID: 6340684312630009504, guid: 25543644111759b43a3bb0b3dcd24b9b,
         type: 3}
       propertyPath: m_Name

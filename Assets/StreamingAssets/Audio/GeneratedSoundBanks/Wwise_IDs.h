@@ -17,13 +17,13 @@ namespace AK
         static const AkUniqueID CARDPLAY = 4206845685U;
         static const AkUniqueID CARDSHUFFLE = 723374694U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID LOSE = 221232726U;
         static const AkUniqueID MUSIC = 3991942870U;
-        static const AkUniqueID RATLOSE = 1995685089U;
-        static const AkUniqueID RATWIN = 4264003164U;
         static const AkUniqueID SLOTMACHINEWIN = 2127906762U;
         static const AkUniqueID SMOKEPUFF = 3240102813U;
         static const AkUniqueID SPLASHSCREEN = 3140745524U;
         static const AkUniqueID VIVALASMAGES = 3760300016U;
+        static const AkUniqueID WIN = 979765101U;
     } // namespace EVENTS
 
     namespace STATES
@@ -48,6 +48,21 @@ namespace AK
         } // namespace MUSIC
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace ENEMYTYPE
+        {
+            static const AkUniqueID GROUP = 3807720919U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RAT = 1047714102U;
+                static const AkUniqueID WIZARD = 3202541808U;
+            } // namespace SWITCH
+        } // namespace ENEMYTYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

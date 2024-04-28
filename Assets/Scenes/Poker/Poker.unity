@@ -9341,6 +9341,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1030555645}
   - component: {fileID: 1030555644}
+  - component: {fileID: 1030555646}
+  - component: {fileID: 1030555648}
+  - component: {fileID: 1030555647}
   m_Layer: 0
   m_Name: BattleController
   m_TagString: Untagged
@@ -9361,15 +9364,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeEnemy: {fileID: 0}
-  RatWin:
+  WinSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7c1ae4ea750e97b42bc6c394f043735a,
+    WwiseObjectReference: {fileID: 11400000, guid: 4508deb81f4ed1347b24d202c88bed7e,
       type: 2}
-  RatLose:
+  LoseSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 60cab25199ee444489309d15ed7c54b6,
+    WwiseObjectReference: {fileID: 11400000, guid: 80bdc5888ca8c144ab9839a2b46c4938,
       type: 2}
   startingCardsAmount: 7
   currentBet: 0
@@ -9394,6 +9397,81 @@ Transform:
   - {fileID: 1728407943}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1030555646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030555643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bfef0da82871e14e99fe1368d732776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MySwitches:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03229acfd9ef23f4885970da250dd528,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 92d52be2923272a4fa49b0b66b2ade6f,
+      type: 2}
+  enemySwitch: 
+--- !u!54 &1030555647
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030555643}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1030555648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030555643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c09cde19f46ea4b92b5aa9b538fa57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1061710166
 PrefabInstance:
   m_ObjectHideFlags: 0

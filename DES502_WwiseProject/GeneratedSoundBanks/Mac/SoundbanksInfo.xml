@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DEF07FD7-788D-F1EC-EC5C-EB7D5EBE7427}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{480E3AD5-7866-A58E-E4F5-DBAC45598DE2}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -48,8 +48,16 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3807720919" Name="EnemyType">
+					<Switches>
+						<Switch Id="1047714102" Name="Rat"/>
+						<Switch Id="3202541808" Name="Wizard"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{4923D2FE-B3F0-F6DB-FA20-EB2F5C3CB80A}">
+		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{3146D37C-3923-AB6A-1AF0-F06424BC2B05}">
 			<ShortName>CommonEvents</ShortName>
 			<Path>CommonEvents.bnk</Path>
 			<Media>
@@ -59,7 +67,7 @@
 				</File>
 				<File Id="34987519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PuffOfSmoke.wav</ShortName>
-					<CachePath>SFX/PuffOfSmoke_818F3B66.wem</CachePath>
+					<CachePath>SFX/PuffOfSmoke_335095D4.wem</CachePath>
 				</File>
 				<File Id="246502203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootStep5.wav</ShortName>
@@ -135,7 +143,6 @@
 					<Plugin Id="447537854" Name="Static_Sibilance_Remover_Male (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 				<ShareSets>
-					<Plugin Id="3407225994" Name="Phone_Booth" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3851006675" Name="Secret_message_Distant" LibName="Wwise Harmonizer" LibId="9043971"/>
 				</ShareSets>
 			</Plugins>
@@ -167,32 +174,26 @@
 						<MediaRef Id="1008269798"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1995685089" Name="RatLose" DurationType="OneShot" DurationMin="1.4373016" DurationMax="1.48839">
-					<MediaRefs>
-						<MediaRef Id="434401296"/>
-						<MediaRef Id="583465700"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4264003164" Name="RatWin" DurationType="OneShot" DurationMin="1.996916" DurationMax="2.6190476">
-					<MediaRefs>
-						<MediaRef Id="442831581"/>
-						<MediaRef Id="472751316"/>
-					</MediaRefs>
+				<Event Id="221232726" Name="Lose" DurationType="OneShot" DurationMin="1.4373016" DurationMax="1.48839">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="1047714102"/>
+							<MediaRefs>
+								<MediaRef Id="434401296"/>
+								<MediaRef Id="583465700"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2127906762" Name="SlotMachineWin" DurationType="OneShot" DurationMin="1.4571533" DurationMax="1.7328571">
 					<MediaRefs>
 						<MediaRef Id="564346088"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3240102813" Name="SmokePuff" DurationType="OneShot" DurationMin="0.4928118" DurationMax="0.5860553">
+				<Event Id="3240102813" Name="SmokePuff" DurationType="OneShot" DurationMin="0.4928118" DurationMax="0.4928118">
 					<MediaRefs>
 						<MediaRef Id="34987519"/>
 					</MediaRefs>
-					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="3407225994"/>
-						</ShareSets>
-					</PluginRefs>
 				</Event>
 				<Event Id="3140745524" Name="SplashScreen" DurationType="OneShot" DurationMin="2.975325" DurationMax="3.333567">
 					<MediaRefs>
@@ -214,7 +215,26 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="979765101" Name="Win" DurationType="OneShot" DurationMin="1.996916" DurationMax="2.6190476">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="1047714102"/>
+							<MediaRefs>
+								<MediaRef Id="442831581"/>
+								<MediaRef Id="472751316"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3807720919" Name="EnemyType">
+					<Switches>
+						<Switch Id="1047714102" Name="Rat"/>
+						<Switch Id="3202541808" Name="Wizard"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{73B5D75A-BFBC-BBD5-85A8-A73670A1F95A}">
 			<ShortName>Music</ShortName>
@@ -340,5 +360,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6945DA9F-F20A-02C1-C081-AD50F4B226DC}</FileHash>
+	<FileHash>{5027834E-8B2B-8C26-8E8F-668E70ACE47F}</FileHash>
 </SoundBanksInfo>

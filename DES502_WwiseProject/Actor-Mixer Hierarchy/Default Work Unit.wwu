@@ -674,7 +674,18 @@
 				</Sound>
 				<Folder Name="Dialogue" ID="{D8D9EB0F-77F3-472D-BB2F-8A1C11261BBB}" ShortID="81617527">
 					<ChildrenList>
-						<Folder Name="Rat" ID="{78481D32-1A14-41C1-9027-64F2F08A6108}" ShortID="740819410">
+						<SwitchContainer Name="Win" ID="{334EF041-41DE-46E4-87B3-80E08354FD11}" ShortID="195161505">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Audio Bus" ID="{43FC1A4A-A2CC-4D77-B996-C26867A6507C}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="EnemyType" ID="{0169AA2A-C689-4D52-857B-BB7331082596}" WorkUnitID="{2B7AF1E4-FEAA-4308-8B26-0DEC0F798937}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}" ShortID="397830836">
 									<PropertyList>
@@ -761,6 +772,36 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
+										<ItemList>
+											<ItemRef Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Lose" ID="{0831AC76-33C4-4E94-ABE6-624C2FB4EE12}" ShortID="516553530">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Audio Bus" ID="{43FC1A4A-A2CC-4D77-B996-C26867A6507C}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="EnemyType" ID="{0169AA2A-C689-4D52-857B-BB7331082596}" WorkUnitID="{2B7AF1E4-FEAA-4308-8B26-0DEC0F798937}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
 								<RandomSequenceContainer Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}" ShortID="301316289">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
@@ -784,7 +825,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX Audio Bus" ID="{43FC1A4A-A2CC-4D77-B996-C26867A6507C}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -849,37 +890,35 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
-						</Folder>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
+										<ItemList>
+											<ItemRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
-				<RandomSequenceContainer Name="SmokePuff" ID="{D583EB2E-4209-416B-981E-215AA74EE9F4}" ShortID="696778982">
+				<Sound Name="SmokePuff" ID="{22E9C598-474B-4AE0-80B0-C7E33D5E1841}" ShortID="758179288">
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>20</Value>
+								<Value>41</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>29</Value>
+								<Value>27</Value>
 							</ValueList>
-						</Property>
-						<Property Name="MakeUpGain" Type="Real64">
-							<ValueList>
-								<Value>-15</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{7418FBA7-D426-4CEE-915C-C818C6F9B32F}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Min" Type="Real64" Value="-300"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -887,49 +926,27 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+							<ObjectRef Name="SFX Audio Bus" ID="{43FC1A4A-A2CC-4D77-B996-C26867A6507C}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="PuffOfSmoke" ID="{B97D423D-F89F-4AAC-AE38-ADFE5B163B4D}" ShortID="323190967">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="PuffOfSmoke" ID="{50AB7789-6456-4B21-9DA5-589A1C6360AB}">
-									<Language>SFX</Language>
-									<AudioFile>PuffOfSmoke.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="34987519"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="PuffOfSmoke" ID="{50AB7789-6456-4B21-9DA5-589A1C6360AB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="PuffOfSmoke" ID="{8372220D-1398-4B47-8437-2ECC183D7A58}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.140113156373661"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.40262401256799"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>PuffOfSmoke.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="34987519"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<Reference>
-								<Local>
-									<EffectSlot Name="" ID="{06934255-9CD2-45F6-B90A-3598C1C95324}" ShortID="570043485">
-										<ReferenceList>
-											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-												<ObjectRef Name="Phone_Booth" ID="{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-											</Reference>
-										</ReferenceList>
-									</EffectSlot>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</RandomSequenceContainer>
+					<ActiveSourceList>
+						<ActiveSource Name="PuffOfSmoke" ID="{8372220D-1398-4B47-8437-2ECC183D7A58}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -11,8 +11,8 @@ public class BattleController : MonoBehaviour
     public static BattleController instance;
     public DealerHealth activeEnemy;
 
-    public AK.Wwise.Event RatWin;
-    public AK.Wwise.Event RatLose;
+    public AK.Wwise.Event WinSound;
+    public AK.Wwise.Event LoseSound;
 
     private void Awake()
     {
@@ -197,13 +197,13 @@ public class BattleController : MonoBehaviour
             PokerUIController.instance.SetWinnerText("You Win!");
             PlayerHealth.instance.IncreaseHealth(currentBet);           
             activeEnemy.TakeDamage(currentBet);
-            RatLose.Post(gameObject);
+            LoseSound.Post(gameObject);
         }
         else if (playerHandRank < enemyHandRank)
         {
             PokerUIController.instance.SetWinnerText("Enemy Wins");
             PlayerHealth.instance.TakeDamage(currentBet);
-            RatWin.Post(gameObject);
+            WinSound.Post(gameObject);
         }
         else
         {
@@ -216,13 +216,13 @@ public class BattleController : MonoBehaviour
                 PokerUIController.instance.SetWinnerText("You Win!");
                 PlayerHealth.instance.IncreaseHealth(currentBet);
                 activeEnemy.TakeDamage(currentBet);
-                RatLose.Post(gameObject);
+                LoseSound.Post(gameObject);
             }
             else if (tieWinner == HandEvaluator.TieWinner.Enemy)
             {
                 PokerUIController.instance.SetWinnerText("Enemy Wins");
                 PlayerHealth.instance.TakeDamage(currentBet);
-                RatWin.Post(gameObject);
+                WinSound.Post(gameObject);
             }
             else
             {

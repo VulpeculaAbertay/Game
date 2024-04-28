@@ -101,7 +101,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f2447ec76069e842bc90e2a3c1bc6a0d
     GuidInternal: 
-    m_lastTime: -8584872844821674498
+    m_lastTime: -8584872807936010246
     List:
     - name: CommonEvents
       guid: 76dbe5716303ea4a86c85abf37133f27
@@ -143,7 +143,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: d62c319f63e7f349b6bc73e971905b50
     GuidInternal: 
-    m_lastTime: -8584872844864390681
+    m_lastTime: -8584872806552098507
     List:
     - name: Bet
       guid: 7b6f474bd45f0f4faf3e7f51e27af52c
@@ -230,6 +230,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.31360212
       minDuration: 0.1787252
+    - name: Lose
+      guid: 0ee948f02a21a948b5a5787bf93932e0
+      id: 221232726
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      - ElementName: Lose
+        ObjectType: 3
+        guid: 0ee948f02a21a948b5a5787bf93932e0
+      Path: Events\Default Work Unit\Dialogue\Lose
+      maxAttenuation: 0
+      maxDuration: 1.48839
+      minDuration: 1.4373016
     - name: Music
       guid: 67194e8b62a8084eb21fddd0060c0e92
       id: 3991942870
@@ -247,72 +267,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Rat
-      guid: 42b209d54f8a9f4692ceb6f987cd840a
-      id: 1047714102
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d62c319f63e7f349b6bc73e971905b50
-      - ElementName: Dialogue
-        ObjectType: 4
-        guid: dfc436dc10968941aabd720eea29325c
-      - ElementName: Rat
-        ObjectType: 4
-        guid: 42b209d54f8a9f4692ceb6f987cd840a
-      Path: Events\Default Work Unit\Dialogue\Rat
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: RatLose
-      guid: da54e531318fdc409e367697e0ffc1a1
-      id: 1995685089
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d62c319f63e7f349b6bc73e971905b50
-      - ElementName: Dialogue
-        ObjectType: 4
-        guid: dfc436dc10968941aabd720eea29325c
-      - ElementName: Rat
-        ObjectType: 4
-        guid: 42b209d54f8a9f4692ceb6f987cd840a
-      - ElementName: RatLose
-        ObjectType: 3
-        guid: da54e531318fdc409e367697e0ffc1a1
-      Path: Events\Default Work Unit\Dialogue\Rat\RatLose
-      maxAttenuation: 0
-      maxDuration: 1.48839
-      minDuration: 1.4373016
-    - name: RatWin
-      guid: f06aa99db1a99a4fa8ed1fee6cd4cb31
-      id: 4264003164
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d62c319f63e7f349b6bc73e971905b50
-      - ElementName: Dialogue
-        ObjectType: 4
-        guid: dfc436dc10968941aabd720eea29325c
-      - ElementName: Rat
-        ObjectType: 4
-        guid: 42b209d54f8a9f4692ceb6f987cd840a
-      - ElementName: RatWin
-        ObjectType: 3
-        guid: f06aa99db1a99a4fa8ed1fee6cd4cb31
-      Path: Events\Default Work Unit\Dialogue\Rat\RatWin
-      maxAttenuation: 0
-      maxDuration: 2.6190476
-      minDuration: 1.996916
     - name: SlotMachineWin
       guid: 3c9337e897b1194782da95e708cbfdd4
       id: 2127906762
@@ -345,7 +299,7 @@ MonoBehaviour:
         guid: 661d873bcb789749be78aff9b4907c11
       Path: Events\Default Work Unit\SmokePuff
       maxAttenuation: 0
-      maxDuration: 0.5860553
+      maxDuration: 0.4928118
       minDuration: 0.4928118
     - name: SplashScreen
       guid: d68f53ff001abe4bb9d323b48f31ae08
@@ -381,6 +335,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.1969128
       minDuration: 3.1969128
+    - name: Win
+      guid: c87d0e471cd74a40b2f62d805dbc4f47
+      id: 979765101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d62c319f63e7f349b6bc73e971905b50
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: dfc436dc10968941aabd720eea29325c
+      - ElementName: Win
+        ObjectType: 3
+        guid: c87d0e471cd74a40b2f62d805dbc4f47
+      Path: Events\Default Work Unit\Dialogue\Win
+      maxAttenuation: 0
+      maxDuration: 2.6190476
+      minDuration: 1.996916
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -599,8 +573,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: e4f17a2baafe08438b260dec0f798937
     GuidInternal: 
-    m_lastTime: -8584874568665753109
-    List: []
+    m_lastTime: -8584872808008738300
+    List:
+    - name: EnemyType
+      guid: 2aaa690189c6524d857bbb7331082596
+      id: 3807720919
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e4f17a2baafe08438b260dec0f798937
+      - ElementName: EnemyType
+        ObjectType: 11
+        guid: 2aaa690189c6524d857bbb7331082596
+      Path: Switches\Default Work Unit\EnemyType
+      values:
+      - name: Rat
+        guid: 7ba674cbce3053479e0c852c8f64bda0
+        id: 1047714102
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e4f17a2baafe08438b260dec0f798937
+        - ElementName: EnemyType
+          ObjectType: 11
+          guid: 2aaa690189c6524d857bbb7331082596
+        - ElementName: Rat
+          ObjectType: 10
+          guid: 7ba674cbce3053479e0c852c8f64bda0
+      - name: Wizard
+        guid: 503aec8f480b4f4e8c99d3b9a1ed27ea
+        id: 3202541808
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e4f17a2baafe08438b260dec0f798937
+        - ElementName: EnemyType
+          ObjectType: 11
+          guid: 2aaa690189c6524d857bbb7331082596
+        - ElementName: Wizard
+          ObjectType: 10
+          guid: 503aec8f480b4f4e8c99d3b9a1ed27ea
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -616,7 +640,7 @@ MonoBehaviour:
     m_lastTime: -8584874568665753109
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000021000000c0000000c1000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000018000000190000001a00000021000000c0000000c1000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

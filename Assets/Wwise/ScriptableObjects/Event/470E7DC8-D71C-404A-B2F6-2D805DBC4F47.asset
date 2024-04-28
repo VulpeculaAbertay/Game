@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea445c87a1377564088a5d7c98f4e427, type: 3}
-  m_Name: 9DA96AF0-A9B1-4F9A-A8ED-1FEE6CD4CB31
+  m_Name: 470E7DC8-D71C-404A-B2F6-2D805DBC4F47
   m_EditorClassIdentifier: 
-  objectName: RatWin
-  id: 4264003164
-  guid: 9DA96AF0-A9B1-4F9A-A8ED-1FEE6CD4CB31
+  objectName: Win
+  id: 979765101
+  guid: 470E7DC8-D71C-404A-B2F6-2D805DBC4F47

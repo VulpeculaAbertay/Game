@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2B7AF1E4-FEAA-4308-8B26-0DEC0F798937}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2B7AF1E4-FEAA-4308-8B26-0DEC0F798937}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2B7AF1E4-FEAA-4308-8B26-0DEC0F798937}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="EnemyType" ID="{0169AA2A-C689-4D52-857B-BB7331082596}">
+					<ChildrenList>
+						<Switch Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
+						<Switch Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

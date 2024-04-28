@@ -5,16 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="CommonEvents" ID="{71E5DB76-0363-4AEA-86C8-5ABF37133F27}">
 					<ObjectInclusionList>
-						<ObjectRef Name="RatLose" ID="{31E554DA-8F31-40DC-9E36-7697E0FFC1A1}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Win" ID="{470E7DC8-D71C-404A-B2F6-2D805DBC4F47}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CardShuffle" ID="{4B4C49C3-0C97-42EB-B875-2B19BE5C2242}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CardPlay" ID="{7844582E-63D1-451C-8138-14193A9E57DA}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SlotMachineWin" ID="{E837933C-B197-4719-82DA-95E708CBFDD4}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="VivaLasMages" ID="{414950B8-B6C2-47D1-927A-B6C17DB0A1BD}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lose" ID="{F048E90E-212A-48A9-B5A5-787BF93932E0}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SmokePuff" ID="{3B871D66-78CB-4997-BE78-AFF9B4907C11}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{CB043B91-134D-4B3B-A9EE-6AFCAB87F887}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SplashScreen" ID="{FF538FD6-1A00-4BBE-B9D3-23B48F31AE08}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bet" ID="{4B476F7B-5FD4-4F0F-AF3E-7F51E27AF52C}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="RatWin" ID="{9DA96AF0-A9B1-4F9A-A8ED-1FEE6CD4CB31}" WorkUnitID="{9F312CD6-E763-49F3-B6BC-73E971905B50}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea445c87a1377564088a5d7c98f4e427, type: 3}
-  m_Name: 31E554DA-8F31-40DC-9E36-7697E0FFC1A1
+  m_Script: {fileID: 11500000, guid: a854121cd574e044292a714d366dd6e7, type: 3}
+  m_Name: 0169AA2A-C689-4D52-857B-BB7331082596
   m_EditorClassIdentifier: 
-  objectName: RatLose
-  id: 1995685089
-  guid: 31E554DA-8F31-40DC-9E36-7697E0FFC1A1
+  objectName: EnemyType
+  id: 3807720919
+  guid: 0169AA2A-C689-4D52-857B-BB7331082596
