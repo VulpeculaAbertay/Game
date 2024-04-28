@@ -57,7 +57,12 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID DREADPATRON = 2821599287U;
+                static const AkUniqueID HARLEQUIN = 678048184U;
                 static const AkUniqueID RAT = 1047714102U;
+                static const AkUniqueID SKELETONDEALER = 442379379U;
+                static const AkUniqueID SLIME = 3803999823U;
+                static const AkUniqueID SNAKE = 3187576023U;
                 static const AkUniqueID WIZARD = 3202541808U;
             } // namespace SWITCH
         } // namespace ENEMYTYPE

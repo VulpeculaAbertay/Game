@@ -694,19 +694,9 @@
 												<Value>30</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>15</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -772,11 +762,372 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SkeletonWIn" ID="{B50E5ABD-E121-4615-AF2D-9BDCA2C998FA}" ShortID="453476801">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SkeletonWin1VL" ID="{BE557265-49D7-446E-A6BB-2D69AB626E23}" ShortID="817460107">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SkeletonWin1VL" ID="{6E43EC38-7D5E-4B22-A5DB-352AA30F439E}">
+													<Language>SFX</Language>
+													<AudioFile>SkeletonWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340383686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SkeletonWin1VL" ID="{6E43EC38-7D5E-4B22-A5DB-352AA30F439E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SkeletonWin2VL" ID="{8577CBB1-89DE-4A55-ABF0-E87A944ACCA7}" ShortID="1063358253">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SkeletonWin2VL" ID="{D14FC758-9F2B-4C16-91FD-DE7CA695DAD8}">
+													<Language>SFX</Language>
+													<AudioFile>SkeletonWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="226500119"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SkeletonWin2VL" ID="{D14FC758-9F2B-4C16-91FD-DE7CA695DAD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SlimeWIn" ID="{51690A1D-0F4E-4C18-A93B-4BBBFDDDAD5B}" ShortID="994670345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SlimeWin1VL" ID="{C488DB33-2905-4159-82AC-5CC0528C28BB}" ShortID="654671972">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SlimeWin1VL" ID="{B52F92C1-A0C3-4E15-A844-EF7AB101C84F}">
+													<Language>SFX</Language>
+													<AudioFile>SlimeWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="146363578"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SlimeWin1VL" ID="{B52F92C1-A0C3-4E15-A844-EF7AB101C84F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SlimeWin2VL" ID="{6B039430-ED84-49B8-B5F8-5B45144CED09}" ShortID="2932815">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SlimeWin2VL" ID="{501CBEBC-C5BD-4331-8374-330F5B22BA31}">
+													<Language>SFX</Language>
+													<AudioFile>SlimeWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="605194448"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SlimeWin2VL" ID="{501CBEBC-C5BD-4331-8374-330F5B22BA31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="DreadPatronWin" ID="{AD2E804C-5D2A-4F93-B7A8-869024643660}" ShortID="772854599">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DreadPatronWin1VL" ID="{A516787B-3430-4E54-BAAA-6F94AC37E8BE}" ShortID="1048819330">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DreadPatronWin1VL" ID="{2C4F53F8-B5FB-428C-8E49-9E6A4B327544}">
+													<Language>SFX</Language>
+													<AudioFile>DreadPatronWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="504251328"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DreadPatronWin1VL" ID="{2C4F53F8-B5FB-428C-8E49-9E6A4B327544}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DreadPatronWin2VL" ID="{1A340171-350C-4AC3-B278-84F890CFF907}" ShortID="834086700">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DreadPatronWin2VL" ID="{81228739-3CCB-497B-8CFE-32EDDD4CF442}">
+													<Language>SFX</Language>
+													<AudioFile>DreadPatronWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="400853693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DreadPatronWin2VL" ID="{81228739-3CCB-497B-8CFE-32EDDD4CF442}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SnakeWIn" ID="{872B2427-24BB-427E-AAEC-8561FA7B86BE}" ShortID="646959895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SnakeWin1VL" ID="{DEA8FA96-E45D-4F5E-8D34-4EB13D0C043E}" ShortID="738133345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SnakeWin1VL" ID="{B0B32821-62DE-49F2-B605-0F0E37530375}">
+													<Language>SFX</Language>
+													<AudioFile>SnakeWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="645544646"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SnakeWin1VL" ID="{B0B32821-62DE-49F2-B605-0F0E37530375}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SnakeWin2VL" ID="{1B333389-4B14-4261-868C-ABDEF4295C2F}" ShortID="200313203">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SnakeWin2VL" ID="{590A3753-CD43-4FB6-BDFE-D440393752D7}">
+													<Language>SFX</Language>
+													<AudioFile>SnakeWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="151370063"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SnakeWin2VL" ID="{590A3753-CD43-4FB6-BDFE-D440393752D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HarlequinWin" ID="{4AFA4276-1431-4CCB-97DA-1ADC332E6D38}" ShortID="302507569">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="HarlequinWin1VL" ID="{C3EF91A1-866C-41D8-A58C-0D85CB88D9DE}" ShortID="436228230">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HarlequinWin1VL" ID="{F0DD8328-D0E1-42EE-B9DB-9368DE8A6C24}">
+													<Language>SFX</Language>
+													<AudioFile>HarlequinWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827235702"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HarlequinWin1VL" ID="{F0DD8328-D0E1-42EE-B9DB-9368DE8A6C24}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HarlequinWin2VL" ID="{0E5A67D2-7CB8-4C3C-89C3-C49D47B7BD7F}" ShortID="112986255">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HarlequinWin2VL" ID="{980C3940-858E-4C76-BE6C-9E5D1C2DA3E5}">
+													<Language>SFX</Language>
+													<AudioFile>HarlequinWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="503821177"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HarlequinWin2VL" ID="{980C3940-858E-4C76-BE6C-9E5D1C2DA3E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
+										<ItemRef Name="SlimeWIn" ID="{51690A1D-0F4E-4C18-A93B-4BBBFDDDAD5B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SnakeWIn" ID="{872B2427-24BB-427E-AAEC-8561FA7B86BE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="DreadPatronWin" ID="{AD2E804C-5D2A-4F93-B7A8-869024643660}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="HarlequinWin" ID="{4AFA4276-1431-4CCB-97DA-1ADC332E6D38}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SkeletonWIn" ID="{B50E5ABD-E121-4615-AF2D-9BDCA2C998FA}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -784,6 +1135,36 @@
 										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
 										<ItemList>
 											<ItemRef Name="RatWin" ID="{DAADB176-E6E2-4FDE-880E-FBAA1152D11A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="DreadPatron" ID="{A9552B95-4E65-448D-9F94-5A310BEEC93F}"/>
+										<ItemList>
+											<ItemRef Name="DreadPatronWin" ID="{AD2E804C-5D2A-4F93-B7A8-869024643660}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Slime" ID="{B45F98B1-F1A1-4305-BF25-790C1841685F}"/>
+										<ItemList>
+											<ItemRef Name="SlimeWIn" ID="{51690A1D-0F4E-4C18-A93B-4BBBFDDDAD5B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Snake" ID="{F1BA99C2-49E7-4E81-AF90-4B9E07AD163A}"/>
+										<ItemList>
+											<ItemRef Name="SnakeWIn" ID="{872B2427-24BB-427E-AAEC-8561FA7B86BE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="SkeletonDealer" ID="{C6C331E6-5149-4548-8335-28C19B20ABF1}"/>
+										<ItemList>
+											<ItemRef Name="SkeletonWIn" ID="{B50E5ABD-E121-4615-AF2D-9BDCA2C998FA}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Harlequin" ID="{6E2196E8-EBBF-48B4-B417-6DFD004C922D}"/>
+										<ItemList>
+											<ItemRef Name="HarlequinWin" ID="{4AFA4276-1431-4CCB-97DA-1ADC332E6D38}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -804,16 +1185,6 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}" ShortID="301316289">
 									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>30</Value>
-											</ValueList>
-										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>6</Value>
@@ -833,7 +1204,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>8</Value>
+														<Value>3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -889,9 +1260,410 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SkeletonLose" ID="{705AD06B-B11F-4B4A-BBC2-65B4686D6A9D}" ShortID="815732919">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D91F9EB4-7046-4B7E-AC74-318FE3636C85}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SkeletonLose1VL" ID="{979EEAFF-39B0-4756-9B23-F03792DBE44F}" ShortID="806430429">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SkeletonLose1VL" ID="{82BC94DE-D59E-461A-8460-A35CEBDFE541}">
+													<Language>SFX</Language>
+													<AudioFile>SkeletonLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="346616716"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SkeletonLose1VL" ID="{82BC94DE-D59E-461A-8460-A35CEBDFE541}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SkeletonLose2VL" ID="{E2AA4C27-5771-4882-BEA4-741B6FF447B7}" ShortID="694463266">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SkeletonLose2VL" ID="{7E56F9AC-FBE3-4BAE-8728-3EEE55DA637E}">
+													<Language>SFX</Language>
+													<AudioFile>SkeletonLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72610720"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SkeletonLose2VL" ID="{7E56F9AC-FBE3-4BAE-8728-3EEE55DA637E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="DreadPatronLose" ID="{5B9ABB93-D48C-4404-83B6-8C7F3EA89A19}" ShortID="742495042">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>46</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="DreadPatronLose1VL" ID="{A90743D1-ABA5-4A6A-AEEC-940B533ABBF1}" ShortID="246775662">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DreadPatronLose1VL" ID="{08F7ADEF-C748-4194-A869-ED8D854ED227}">
+													<Language>SFX</Language>
+													<AudioFile>DreadPatronLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639437876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DreadPatronLose1VL" ID="{08F7ADEF-C748-4194-A869-ED8D854ED227}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="DreadPatronLose2VL" ID="{026E01D4-DDC0-4D04-9C32-B9B24D499B37}" ShortID="391630301">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="DreadPatronLose2VL" ID="{FB796186-A274-42D8-884C-DC5054696A23}">
+													<Language>SFX</Language>
+													<AudioFile>DreadPatronLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="135631757"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="DreadPatronLose2VL" ID="{FB796186-A274-42D8-884C-DC5054696A23}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SlimeLose" ID="{07571B12-5FCD-4C28-8018-D0F7A727E5AB}" ShortID="122232103">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SlimeLose1VL" ID="{D1E3F18E-51D6-46FC-B396-C67949A3CAFB}" ShortID="156300541">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SlimeLose1VL" ID="{1B620DBC-D2EC-4815-8B25-80EF5D06BAAF}">
+													<Language>SFX</Language>
+													<AudioFile>SlimeLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="90556042"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SlimeLose1VL" ID="{1B620DBC-D2EC-4815-8B25-80EF5D06BAAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SlimeLose2VL" ID="{119DE440-3FF8-4D71-95AB-CDA7D0975D47}" ShortID="837989181">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SlimeLose2VL" ID="{66D5334F-5ECB-431E-BD8D-6B3E5EEF284F}">
+													<Language>SFX</Language>
+													<AudioFile>SlimeLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001551563"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SlimeLose2VL" ID="{66D5334F-5ECB-431E-BD8D-6B3E5EEF284F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SnakeLose" ID="{55E832C4-666E-4606-9DCD-0D060871F6C5}" ShortID="891303109">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SnakeLose1VL" ID="{532051DA-E42E-494F-8B59-3D49DE6E7A8F}" ShortID="48824225">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SnakeLose1VL" ID="{5AEDBABD-6522-4FF8-823E-715012DF2212}">
+													<Language>SFX</Language>
+													<AudioFile>SnakeLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1054698416"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SnakeLose1VL" ID="{5AEDBABD-6522-4FF8-823E-715012DF2212}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SnakeLose2VL" ID="{AF2FC2CD-5F8B-488E-BCD9-CF83C75DC5B9}" ShortID="620767680">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SnakeLose2VL" ID="{31CBE5D3-C09B-45E9-BCB6-6215204A35B0}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.278230452674897"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SnakeLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989986742"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SnakeLose2VL" ID="{31CBE5D3-C09B-45E9-BCB6-6215204A35B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HarlequinLose" ID="{4AC1E4C6-B8FF-4983-A747-C0F35E8D3CBF}" ShortID="208475008">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>29</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="HarlequinLose1VL" ID="{DC355425-E855-4109-B07E-7F03103AF209}" ShortID="604335634">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HarlequinLose1VL" ID="{56864C4C-9132-4B37-BA75-CB06D2FA6E29}">
+													<Language>SFX</Language>
+													<AudioFile>HarlequinLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="242984577"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HarlequinLose1VL" ID="{56864C4C-9132-4B37-BA75-CB06D2FA6E29}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="HarlequinLose2VL" ID="{825E6098-12B5-4A8E-B8E8-022C95789F3B}" ShortID="340357621">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="HarlequinLose2VL" ID="{A76415BE-77E9-447C-BD3D-BFC5AD53F5E4}">
+													<Language>SFX</Language>
+													<AudioFile>HarlequinLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101436057"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="HarlequinLose2VL" ID="{A76415BE-77E9-447C-BD3D-BFC5AD53F5E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="SlimeLose" ID="{07571B12-5FCD-4C28-8018-D0F7A727E5AB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SkeletonLose" ID="{705AD06B-B11F-4B4A-BBC2-65B4686D6A9D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="DreadPatronLose" ID="{5B9ABB93-D48C-4404-83B6-8C7F3EA89A19}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SnakeLose" ID="{55E832C4-666E-4606-9DCD-0D060871F6C5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="HarlequinLose" ID="{4AC1E4C6-B8FF-4983-A747-C0F35E8D3CBF}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}"/>
 									</GroupingBehavior>
@@ -901,6 +1673,36 @@
 										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
 										<ItemList>
 											<ItemRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="DreadPatron" ID="{A9552B95-4E65-448D-9F94-5A310BEEC93F}"/>
+										<ItemList>
+											<ItemRef Name="DreadPatronLose" ID="{5B9ABB93-D48C-4404-83B6-8C7F3EA89A19}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Slime" ID="{B45F98B1-F1A1-4305-BF25-790C1841685F}"/>
+										<ItemList>
+											<ItemRef Name="SlimeLose" ID="{07571B12-5FCD-4C28-8018-D0F7A727E5AB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Snake" ID="{F1BA99C2-49E7-4E81-AF90-4B9E07AD163A}"/>
+										<ItemList>
+											<ItemRef Name="SnakeLose" ID="{55E832C4-666E-4606-9DCD-0D060871F6C5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="SkeletonDealer" ID="{C6C331E6-5149-4548-8335-28C19B20ABF1}"/>
+										<ItemList>
+											<ItemRef Name="SkeletonLose" ID="{705AD06B-B11F-4B4A-BBC2-65B4686D6A9D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Harlequin" ID="{6E2196E8-EBBF-48B4-B417-6DFD004C922D}"/>
+										<ItemList>
+											<ItemRef Name="HarlequinLose" ID="{4AC1E4C6-B8FF-4983-A747-C0F35E8D3CBF}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

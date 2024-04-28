@@ -7,6 +7,11 @@
 					<ChildrenList>
 						<Switch Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
 						<Switch Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
+						<Switch Name="SkeletonDealer" ID="{C6C331E6-5149-4548-8335-28C19B20ABF1}"/>
+						<Switch Name="DreadPatron" ID="{A9552B95-4E65-448D-9F94-5A310BEEC93F}"/>
+						<Switch Name="Snake" ID="{F1BA99C2-49E7-4E81-AF90-4B9E07AD163A}"/>
+						<Switch Name="Slime" ID="{B45F98B1-F1A1-4305-BF25-790C1841685F}"/>
+						<Switch Name="Harlequin" ID="{6E2196E8-EBBF-48B4-B417-6DFD004C922D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
