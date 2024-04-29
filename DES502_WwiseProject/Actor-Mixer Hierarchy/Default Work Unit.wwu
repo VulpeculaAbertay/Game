@@ -1108,6 +1108,108 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WizardWin" ID="{1796263A-74FB-4AAC-ACC0-D887C75E8FE3}" ShortID="1039677136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WizardWin1VL" ID="{7CCB9974-2A0D-4C42-A12C-9456F46BB9DE}" ShortID="290282756">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardWin1VL" ID="{DFEEDCD3-556B-407A-A552-00141A4D82C6}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.29637410519763"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>WizardWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="494183269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardWin1VL" ID="{DFEEDCD3-556B-407A-A552-00141A4D82C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WizardWin2VL" ID="{C5DE29DE-A350-47DC-8249-DD2CE97261D1}" ShortID="55227845">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardWin2VL" ID="{7E649B66-3534-4845-9B4A-F79EE1C1012C}">
+													<Language>SFX</Language>
+													<AudioFile>WizardWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="519396977"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardWin2VL" ID="{7E649B66-3534-4845-9B4A-F79EE1C1012C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WizardWin3VL" ID="{D00F0F73-946C-4312-92C8-CBB07AFC2427}" ShortID="281376676">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardWin3VL" ID="{74499BE1-10A9-4534-9B90-17059EC9371A}">
+													<Language>SFX</Language>
+													<AudioFile>WizardWin3VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="363109706"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardWin3VL" ID="{74499BE1-10A9-4534-9B90-17059EC9371A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -1116,6 +1218,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SnakeWIn" ID="{872B2427-24BB-427E-AAEC-8561FA7B86BE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="WizardWin" ID="{1796263A-74FB-4AAC-ACC0-D887C75E8FE3}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="DreadPatronWin" ID="{AD2E804C-5D2A-4F93-B7A8-869024643660}"/>
@@ -1131,6 +1236,12 @@
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
+										<ItemList>
+											<ItemRef Name="WizardWin" ID="{1796263A-74FB-4AAC-ACC0-D887C75E8FE3}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
 										<ItemList>
@@ -1646,6 +1757,98 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="WizardLose" ID="{C116EACC-EE42-4DB3-A0C9-08CBD8BADC52}" ShortID="516427181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WizardLose1VL" ID="{D69B4EF3-1092-46A9-B672-80BD19C95C57}" ShortID="769249145">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardLose1VL" ID="{BFFE000A-410E-4352-B36C-E2DC548902E2}">
+													<Language>SFX</Language>
+													<AudioFile>WizardLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="301750876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardLose1VL" ID="{BFFE000A-410E-4352-B36C-E2DC548902E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WizardLose2VL" ID="{4C646E0C-8B4D-4FC9-964A-31624EDB8F86}" ShortID="666373774">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardLose2VL" ID="{D5EBD303-75EE-4734-B135-891C68DCC598}">
+													<Language>SFX</Language>
+													<AudioFile>WizardLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115945111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardLose2VL" ID="{D5EBD303-75EE-4734-B135-891C68DCC598}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WizardLose3VL" ID="{45BE2B02-1E3D-4337-93F8-DE40618D0DC1}" ShortID="465618128">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="WizardLose3VL" ID="{A6F5CB41-FA7A-48F9-8D23-7B9110CA3C00}">
+													<Language>SFX</Language>
+													<AudioFile>WizardLose3VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="581837591"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="WizardLose3VL" ID="{A6F5CB41-FA7A-48F9-8D23-7B9110CA3C00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -1667,8 +1870,17 @@
 									<GroupingBehavior>
 										<ItemRef Name="RatLose" ID="{F5FBC4CC-CFFF-4AF6-A7FD-8CC518D45F96}"/>
 									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="WizardLose" ID="{C116EACC-EE42-4DB3-A0C9-08CBD8BADC52}"/>
+									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
+										<ItemList>
+											<ItemRef Name="WizardLose" ID="{C116EACC-EE42-4DB3-A0C9-08CBD8BADC52}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Rat" ID="{CB74A67B-30CE-4753-9E0C-852C8F64BDA0}"/>
 										<ItemList>

@@ -746,19 +746,9 @@
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="PokerWizard" ID="{6AE3DAF4-4021-4087-9DCB-FDC0120CA9E0}" ShortID="987259386">
 									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>9</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>-2</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -773,24 +763,24 @@
 											<Custom>
 												<MusicPlaylistItem Name="" ID="{D7AA455E-1BCF-4286-B990-6F60AC69E618}" ShortID="947221664">
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{28246DF0-6BAE-4639-B027-B84563E90541}" ShortID="2185723">
+														<MusicPlaylistItem Name="" ID="{8F44AFEE-488A-4885-9E45-B67FA696A209}" ShortID="227081466">
 															<PropertyList>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="WizardFightPart1" ID="{B3562040-6EB7-45AF-B188-0716DAFEC103}" WorkUnitID="{00020684-9038-4340-967F-FB63239E9098}"/>
+																	<ObjectRef Name="WizardPokerPart1" ID="{98AB01FE-85F1-4311-AE9F-795DDE934CEF}" WorkUnitID="{00020684-9038-4340-967F-FB63239E9098}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{7FD80527-DA64-4495-B997-66532F422A29}" ShortID="39256798">
+														<MusicPlaylistItem Name="" ID="{9A16A6CC-27FC-4AFB-9E8E-52FD03490DAE}" ShortID="446837092">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="WizardFightPart2" ID="{4DA58D3C-A8EC-49FE-ACDD-A03C3870E54E}" WorkUnitID="{00020684-9038-4340-967F-FB63239E9098}"/>
+																	<ObjectRef Name="WizardPokerPart2" ID="{CD2F2A57-BB04-4C94-877A-4A554DA197AA}" WorkUnitID="{00020684-9038-4340-967F-FB63239E9098}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -815,9 +805,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="WizardFightPart1" ID="{B3562040-6EB7-45AF-B188-0716DAFEC103}" ShortID="640170241">
+										<MusicSegment Name="WizardPokerPart1" ID="{98AB01FE-85F1-4311-AE9F-795DDE934CEF}" ShortID="175495490">
 											<PropertyList>
-												<Property Name="EndPosition" Type="Real64" Value="20000"/>
+												<Property Name="EndPosition" Type="Real64" Value="22588.231292517"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -828,14 +818,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="WizardFightPart1" ID="{04BC5C72-6017-413E-B691-E1CEAE3F77E0}" ShortID="809449775">
+												<MusicTrack Name="WizardPokerPart1" ID="{C7512575-2084-4C1D-8B89-30CBE3B159A5}" ShortID="453636824">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{FFD2A66A-053E-46DE-B3C8-0B805749190A}">
+																<MusicTransition Name="Root" ID="{FDF3BE07-1679-48CD-BB85-2CC93B795582}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -845,11 +835,11 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="WizardFightPart1" ID="{269D338D-507C-4780-9F1A-695110BF9087}">
+														<AudioFileSource Name="WizardPokerPart1" ID="{5AA02929-B694-4905-9DE5-1C5E10040385}">
 															<Language>SFX</Language>
-															<AudioFile>WizardFightPart1.wav</AudioFile>
+															<AudioFile>WizardPokerPart1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="649143456"/>
+																<MediaID ID="576841977"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -857,18 +847,18 @@
 														<ObjectList Name="Sequences">
 															<Reference>
 																<Local>
-																	<MusicTrackSequence Name="" ID="{12484AAF-7770-4C4F-880C-BF19020F1DBC}">
+																	<MusicTrackSequence Name="" ID="{0D55831B-7635-41FD-87E7-FA986604B61E}">
 																		<ObjectLists>
 																			<ObjectList Name="Clips">
 																				<Reference>
 																					<Local>
-																						<MusicClip Name="WizardFightPart1" ID="{7BEB3CA1-1DC5-4C0F-B6C5-4B16DD9143C4}">
+																						<MusicClip Name="WizardPokerPart1" ID="{DF7A1A0D-26D2-4F8D-9039-57AEB095DD24}">
 																							<PropertyList>
-																								<Property Name="EndTrimOffset" Type="Real64" Value="20000"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="22588.231292517"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
 																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																							</PropertyList>
-																							<AudioSourceRef Name="WizardFightPart1" ID="{269D338D-507C-4780-9F1A-695110BF9087}"/>
+																							<AudioSourceRef Name="WizardPokerPart1" ID="{5AA02929-B694-4905-9DE5-1C5E10040385}"/>
 																						</MusicClip>
 																					</Local>
 																				</Reference>
@@ -885,15 +875,15 @@
 												<ObjectList Name="Cues">
 													<Reference>
 														<Local>
-															<MusicCue Name="Entry Cue" ID="{F1E6723A-DAEB-4A21-98B7-0045AB42341F}"/>
+															<MusicCue Name="Entry Cue" ID="{3DD1D4FC-4C72-4E28-A354-469DAB5F98C3}"/>
 														</Local>
 													</Reference>
 													<Reference>
 														<Local>
-															<MusicCue Name="Exit Cue" ID="{D2D32A66-1CFC-406A-93B9-175C57325471}">
+															<MusicCue Name="Exit Cue" ID="{8CB98E9E-407D-4D02-8D38-A3B0E27D69FC}">
 																<PropertyList>
 																	<Property Name="CueType" Type="int16" Value="1"/>
-																	<Property Name="TimeMs" Type="Real64" Value="20000"/>
+																	<Property Name="TimeMs" Type="Real64" Value="22588.231292517"/>
 																</PropertyList>
 															</MusicCue>
 														</Local>
@@ -901,9 +891,9 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="WizardFightPart2" ID="{4DA58D3C-A8EC-49FE-ACDD-A03C3870E54E}" ShortID="845299046">
+										<MusicSegment Name="WizardPokerPart2" ID="{CD2F2A57-BB04-4C94-877A-4A554DA197AA}" ShortID="877749894">
 											<PropertyList>
-												<Property Name="EndPosition" Type="Real64" Value="73333.3333333333"/>
+												<Property Name="EndPosition" Type="Real64" Value="112941.179138322"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -914,14 +904,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="WizardFightPart2" ID="{0D614739-3E03-41E9-813B-BCD8364BC163}" ShortID="184332639">
+												<MusicTrack Name="WizardPokerPart2" ID="{B1CFCA45-FA77-4DD7-BFF6-3F65DCDDC691}" ShortID="378488883">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{BDC090D5-D8C6-42DD-BD1D-9B4285693818}">
+																<MusicTransition Name="Root" ID="{8D07F9A7-3886-401B-818F-A192FE133FEA}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -931,11 +921,11 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="WizardFightPart2" ID="{D4004A94-6570-4A93-8F76-E5FE65B53E0E}">
+														<AudioFileSource Name="WizardPokerPart2" ID="{31C96DAF-F73C-4BDD-B95D-F04DC9ED8BA3}">
 															<Language>SFX</Language>
-															<AudioFile>WizardFightPart2.wav</AudioFile>
+															<AudioFile>WizardPokerPart2.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="7108920"/>
+																<MediaID ID="727609667"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -943,18 +933,18 @@
 														<ObjectList Name="Sequences">
 															<Reference>
 																<Local>
-																	<MusicTrackSequence Name="" ID="{4808AFA2-DC1A-4005-80CB-1C48939C0237}">
+																	<MusicTrackSequence Name="" ID="{42C17C2D-E7C1-4060-A16B-65FF6D9FC018}">
 																		<ObjectLists>
 																			<ObjectList Name="Clips">
 																				<Reference>
 																					<Local>
-																						<MusicClip Name="WizardFightPart2" ID="{3254C65A-D9EE-471E-8DA0-2D3132909C16}">
+																						<MusicClip Name="WizardPokerPart2" ID="{98434B89-0D3E-4A8C-B5E5-C87440A59DF5}">
 																							<PropertyList>
-																								<Property Name="EndTrimOffset" Type="Real64" Value="73333.3333333333"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="112941.179138322"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
 																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																							</PropertyList>
-																							<AudioSourceRef Name="WizardFightPart2" ID="{D4004A94-6570-4A93-8F76-E5FE65B53E0E}"/>
+																							<AudioSourceRef Name="WizardPokerPart2" ID="{31C96DAF-F73C-4BDD-B95D-F04DC9ED8BA3}"/>
 																						</MusicClip>
 																					</Local>
 																				</Reference>
@@ -971,15 +961,15 @@
 												<ObjectList Name="Cues">
 													<Reference>
 														<Local>
-															<MusicCue Name="Entry Cue" ID="{537AA0FD-767E-44C2-83F4-D1A84F2C5ED4}"/>
+															<MusicCue Name="Entry Cue" ID="{4F4B2E78-F41A-4616-83FD-69758BDAA5B5}"/>
 														</Local>
 													</Reference>
 													<Reference>
 														<Local>
-															<MusicCue Name="Exit Cue" ID="{8C90FBD2-A8C6-48D2-9C65-D45810297593}">
+															<MusicCue Name="Exit Cue" ID="{60E241F3-4C30-4145-B8BE-F84A26BC7527}">
 																<PropertyList>
 																	<Property Name="CueType" Type="int16" Value="1"/>
-																	<Property Name="TimeMs" Type="Real64" Value="73333.3333333333"/>
+																	<Property Name="TimeMs" Type="Real64" Value="112941.179138322"/>
 																</PropertyList>
 															</MusicCue>
 														</Local>
@@ -1272,11 +1262,6 @@
 										<Property Name="Highpass" Type="int16">
 											<ValueList>
 												<Value>17</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>22</Value>
 											</ValueList>
 										</Property>
 										<Property Name="MakeUpGain" Type="Real64">

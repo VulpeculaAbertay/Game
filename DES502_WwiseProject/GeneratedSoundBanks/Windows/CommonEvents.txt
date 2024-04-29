@@ -32,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	72610720	SkeletonLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SkeletonLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SkeletonLose\SkeletonLose2VL		275768
 	90556042	SlimeLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SlimeLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SlimeLose\SlimeLose1VL		182336
 	101436057	HarlequinLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\HarlequinLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\HarlequinLose\HarlequinLose2VL		279668
+	115945111	WizardLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\WizardLose\WizardLose2VL		244392
 	135631757	DreadPatronLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\DreadPatronLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\DreadPatronLose\DreadPatronLose2VL		266028
 	146363578	SlimeWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SlimeWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SlimeWIn\SlimeWin1VL		345936
 	151370063	SnakeWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SnakeWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SnakeWIn\SnakeWin2VL		316736
@@ -39,20 +40,25 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	242984577	HarlequinLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\HarlequinLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\HarlequinLose\HarlequinLose1VL		444068
 	246502203	FootStep5	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep5_4C1205B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep5		36772
 	281327463	CardPlay2	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\CardPlay2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CardPlay\CardPlay2		44564
+	301750876	WizardLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\WizardLose\WizardLose1VL		346160
 	320646118	FootStep3	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep3_7930CC46.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep3		47088
 	340383686	SkeletonWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SkeletonWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SkeletonWIn\SkeletonWin1VL		252144
 	346616716	SkeletonLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SkeletonLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SkeletonLose\SkeletonLose1VL		319868
+	363109706	WizardWin3VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardWin3VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\WizardWin\WizardWin3VL		452168
 	400853693	DreadPatronWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\DreadPatronWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\DreadPatronWin\DreadPatronWin2VL		309976
 	406348161	VivaLasSplashScreen	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\VivaLasMages_40BBC9BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\VivaLasSplashScreen		580556
 	434401296	RatLoseVL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\RatLoseVL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\RatLose\RatLoseVL		262648
 	442831581	RatWinVL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\RatWinVL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\RatWin\RatWinVL		352352
 	472751316	RatWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\RatWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\RatWin\RatWin2VL		462096
 	477192504	FootStep2	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep2_03395070.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep2		38348
+	494183269	WizardWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardWin1VL_E4C4D86D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\WizardWin\WizardWin1VL		590404
 	503821177	HarlequinWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\HarlequinWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\HarlequinWin\HarlequinWin2VL		449704
 	504251328	DreadPatronWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\DreadPatronWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\DreadPatronWin\DreadPatronWin1VL		502664
+	519396977	WizardWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\WizardWin\WizardWin2VL		427576
 	522322369	CardPlay3	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\CardPlay3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CardPlay\CardPlay3		35816
 	552838930	FootStep6	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep6_C119EB5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep6		49380
 	564346088	SlotMachineWin	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\slotmachineWin_9E5CD947.wem		\Actor-Mixer Hierarchy\Default Work Unit\SlotMachineWin		305820
+	581837591	WizardLose3VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\WizardLose3VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\WizardLose\WizardLose3VL		671820
 	583465700	RatLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\RatLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\RatLose\RatLose2VL		253636
 	599570550	SplashScreen	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SplashScreen_D0D0607A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SplashScreen		546856
 	605194448	SlimeWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SlimeWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SlimeWIn\SlimeWin2VL		330700
@@ -61,7 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	655079680	CardPlay1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\CardPlay1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CardPlay\CardPlay1		46524
 	827235702	HarlequinWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\HarlequinWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\HarlequinWin\HarlequinWin1VL		422940
 	828054099	FootStep4	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep4_C917E432.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep4		45944
-	989986742	SnakeLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SnakeLose2VL_C561E186.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SnakeLose\SnakeLose2VL		378712
+	989986742	SnakeLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SnakeLose2VL_E8142F60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SnakeLose\SnakeLose2VL		378712
 	1001551563	SlimeLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\SlimeLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SlimeLose\SlimeLose2VL		257456
 	1008269798	FootStep1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\FootStep1_908481C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep1		35484
 	1019678272	Bet	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Windows\SFX\Bet_23DA3042.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bet		49496

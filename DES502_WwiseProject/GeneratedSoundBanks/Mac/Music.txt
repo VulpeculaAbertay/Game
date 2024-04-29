@@ -17,14 +17,14 @@ State	ID	Name	State Group			Notes
 	3789859536	WizardOffice	Music			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	7108920	WizardFightPart2	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardFightPart2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\PokerWizard\WizardFightPart2\WizardFightPart2		12936144
 	153740171	WizardOffice	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardOffice_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\WizardOffice\WizardOffice\WizardOffice		10925564
 	203706025	BasementMusic	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\BasementMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Basement\BasementMusic\BasementMusic		11953840
 	247490158	MainMenu1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\MainMenu1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\MainMenu\MainMenu1\MainMenu1		7526544
 	265685731	ServiceAreaPoker	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\ServiceAreaPoker_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Poker2\ServiceAreaPoker\ServiceAreaPoker		14260692
 	373873843	Level2Song	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\Level2Song_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\ServiceArea\Level2Song\Level2Song		8610856
 	427565044	CasinoMusic	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\CasinoMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Casino\CasinoMusic\CasinoMusic		15247168
-	649143456	WizardFightPart1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardFightPart1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\PokerWizard\WizardFightPart1\WizardFightPart1		3528144
+	576841977	WizardPokerPart1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardPokerPart1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\PokerWizard\WizardPokerPart1\WizardPokerPart1		3984708
+	727609667	WizardPokerPart2	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardPokerPart2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\PokerWizard\WizardPokerPart2\WizardPokerPart2		19922968
 	828980842	CasinoPoker	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\CasinoPoker_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Poker3\CasinoPoker\CasinoPoker		14412400
 	924852720	PokerMusic	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\PokerMusic_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Poker\PokerMusic\PokerMusic		14725708
 
