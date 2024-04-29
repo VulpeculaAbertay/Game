@@ -59,6 +59,7 @@ namespace AK
             {
                 static const AkUniqueID DREADPATRON = 2821599287U;
                 static const AkUniqueID HARLEQUIN = 678048184U;
+                static const AkUniqueID MANAGERESS = 434070397U;
                 static const AkUniqueID RAT = 1047714102U;
                 static const AkUniqueID SKELETONDEALER = 442379379U;
                 static const AkUniqueID SLIME = 3803999823U;

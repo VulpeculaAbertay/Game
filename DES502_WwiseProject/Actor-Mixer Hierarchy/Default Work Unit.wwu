@@ -1210,9 +1210,97 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="ManageressWin" ID="{BAD5FC19-AF13-4001-A94E-2B565BBF7638}" ShortID="758102749">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ManagerWin1VL" ID="{91ABA097-A34B-4267-B67B-9413082924E8}" ShortID="558855431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ManagerWin1VL" ID="{5E8581FF-09E6-4CAA-A6D8-52AD65537F16}">
+													<Language>SFX</Language>
+													<AudioFile>ManagerWin1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620598437"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ManagerWin1VL" ID="{5E8581FF-09E6-4CAA-A6D8-52AD65537F16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ManagerWin2VL" ID="{43C6E59B-DB69-4166-A0C9-5E5573D06F5B}" ShortID="804811359">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ManagerWin2VL" ID="{DA15C9D0-A13B-4F63-BE9E-DEC4F731090C}">
+													<Language>SFX</Language>
+													<AudioFile>ManagerWin2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="362710849"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ManagerWin2VL" ID="{DA15C9D0-A13B-4F63-BE9E-DEC4F731090C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DAF2EF56-8CEC-4F01-86CA-0ECE3093F710}" ShortID="493010433">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+														<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="ManageressWin" ID="{BAD5FC19-AF13-4001-A94E-2B565BBF7638}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SlimeWIn" ID="{51690A1D-0F4E-4C18-A93B-4BBBFDDDAD5B}"/>
 									</GroupingBehavior>
@@ -1240,6 +1328,12 @@
 										<SwitchRef Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
 										<ItemList>
 											<ItemRef Name="WizardWin" ID="{1796263A-74FB-4AAC-ACC0-D887C75E8FE3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Manageress" ID="{394CF76C-1546-4C9A-BB77-BC5B45E0759C}"/>
+										<ItemList>
+											<ItemRef Name="ManageressWin" ID="{BAD5FC19-AF13-4001-A94E-2B565BBF7638}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1849,7 +1943,109 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="ManageressLose" ID="{AA550496-F2B7-4397-B9A2-C4A1C6B77B2F}" ShortID="931562216">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ManagerLose1VL" ID="{FCB57AC8-B3C7-4F68-8350-9E193264D789}" ShortID="1058561293">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ManagerLose1VL" ID="{07FA986B-5A4C-4DEC-AA96-D2DBD32B7B1B}">
+													<Language>SFX</Language>
+													<AudioFile>ManagerLose1VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="916764331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ManagerLose1VL" ID="{07FA986B-5A4C-4DEC-AA96-D2DBD32B7B1B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ManagerLose2VL" ID="{9F171654-7CB0-4245-B9D3-850A0153C5A3}" ShortID="432301398">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>24</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4EF2065-D6EB-415D-BEDC-CCFEC1A2DB7F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ManagerLose2VL" ID="{231A4E9D-FF1D-4BB6-82A3-16CB725920F8}">
+													<Language>SFX</Language>
+													<AudioFile>ManagerLose2VL.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="630088624"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ManagerLose2VL" ID="{231A4E9D-FF1D-4BB6-82A3-16CB725920F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{550B60FF-A292-498F-9E1E-E8F96B929AC2}" ShortID="505639405">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+														<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
@@ -1860,6 +2056,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="DreadPatronLose" ID="{5B9ABB93-D48C-4404-83B6-8C7F3EA89A19}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="ManageressLose" ID="{AA550496-F2B7-4397-B9A2-C4A1C6B77B2F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SnakeLose" ID="{55E832C4-666E-4606-9DCD-0D060871F6C5}"/>
@@ -1879,6 +2078,12 @@
 										<SwitchRef Name="Wizard" ID="{8FEC3A50-0B48-4E4F-8C99-D3B9A1ED27EA}"/>
 										<ItemList>
 											<ItemRef Name="WizardLose" ID="{C116EACC-EE42-4DB3-A0C9-08CBD8BADC52}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Manageress" ID="{394CF76C-1546-4C9A-BB77-BC5B45E0759C}"/>
+										<ItemList>
+											<ItemRef Name="ManageressLose" ID="{AA550496-F2B7-4397-B9A2-C4A1C6B77B2F}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1924,18 +2129,151 @@
 				</Folder>
 				<Sound Name="SmokePuff" ID="{22E9C598-474B-4AE0-80B0-C7E33D5E1841}" ShortID="758179288">
 					<PropertyList>
-						<Property Name="Highpass" Type="int16">
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
-								<Value>41</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>27</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{9BD320C2-0202-4F48-B84E-9EFD0011D488}" ShortID="1659938">
+									<PropertyList>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="60"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{2CEF5BC1-1E5C-4EF9-830D-8ACDFEB4AECD}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{73B71D4A-9609-43D3-AEEA-EF260A5B868B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>36.30902</XPos>
+															<YPos>23</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="HighPassFilter" ID="{C14474C5-0C76-4809-A136-6E6F103F5C8E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>27.98283</XPos>
+															<YPos>21</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>60</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{433DF976-E3E2-4655-B861-FDA3B6A3F61A}"/>
 						</Reference>
@@ -1946,7 +2284,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="PuffOfSmoke" ID="{8372220D-1398-4B47-8437-2ECC183D7A58}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.140113156373661"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0295257609216531"/>
 								<Property Name="FadeOutDuration" Type="Real64" Value="0.40262401256799"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1957,6 +2295,32 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A097B630-B608-42CA-B622-3F918050AF2D}" ShortID="211587158">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
+												<ObjectRef Name="Light_Expander" ID="{C7E71A3B-745F-47B0-8F31-276DD413F83C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A3FD058D-84D7-4FAC-9600-C4BE1C9C3AC0}" ShortID="837288452">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Small_Tiled_Room1" ID="{41EEE722-3009-4B3F-8820-F414623783E3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="PuffOfSmoke" ID="{8372220D-1398-4B47-8437-2ECC183D7A58}" Platform="Linked"/>
 					</ActiveSourceList>

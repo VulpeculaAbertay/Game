@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A2E56429-4D1A-58CE-5BB2-7C3238899FFD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7878C789-EF4E-6EFC-ECED-BFB3EE729100}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -51,6 +51,7 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3807720919" Name="EnemyType">
 					<Switches>
+						<Switch Id="434070397" Name="Manageress"/>
 						<Switch Id="442379379" Name="SkeletonDealer"/>
 						<Switch Id="678048184" Name="Harlequin"/>
 						<Switch Id="1047714102" Name="Rat"/>
@@ -62,7 +63,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{69D4B5FE-1E92-86BF-5B84-076019C78193}">
+		<SoundBank Id="2159622017" Type="User" Language="SFX" Hash="{53C7113D-4B4F-3BC9-0D59-F7620FB1B0A2}">
 			<ShortName>CommonEvents</ShortName>
 			<Path>CommonEvents.bnk</Path>
 			<Media>
@@ -72,7 +73,7 @@
 				</File>
 				<File Id="34987519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PuffOfSmoke.wav</ShortName>
-					<CachePath>SFX/PuffOfSmoke_76E5E189.wem</CachePath>
+					<CachePath>SFX/PuffOfSmoke_B267C3C8.wem</CachePath>
 				</File>
 				<File Id="72610720" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SkeletonLose2VL.wav</ShortName>
@@ -133,6 +134,10 @@
 				<File Id="346616716" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SkeletonLose1VL.wav</ShortName>
 					<CachePath>SFX/SkeletonLose1VL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="362710849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ManagerWin2VL.wav</ShortName>
+					<CachePath>SFX/ManagerWin2VL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="363109706" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WizardWin3VL.wav</ShortName>
@@ -206,6 +211,14 @@
 					<ShortName>SlimeWin2VL.wav</ShortName>
 					<CachePath>SFX/SlimeWin2VL_818F3B66.wem</CachePath>
 				</File>
+				<File Id="620598437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ManagerWin1VL.wav</ShortName>
+					<CachePath>SFX/ManagerWin1VL_818F3B66.wem</CachePath>
+				</File>
+				<File Id="630088624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ManagerLose2VL.wav</ShortName>
+					<CachePath>SFX/ManagerLose2VL_818F3B66.wem</CachePath>
+				</File>
 				<File Id="639437876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DreadPatronLose1VL.wav</ShortName>
 					<CachePath>SFX/DreadPatronLose1VL_818F3B66.wem</CachePath>
@@ -225,6 +238,10 @@
 				<File Id="828054099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootStep4.wav</ShortName>
 					<CachePath>SFX/FootStep4_C917E432.wem</CachePath>
+				</File>
+				<File Id="916764331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ManagerLose1VL.wav</ShortName>
+					<CachePath>SFX/ManagerLose1VL_818F3B66.wem</CachePath>
 				</File>
 				<File Id="989986742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SnakeLose2VL.wav</ShortName>
@@ -252,7 +269,10 @@
 					<Plugin Id="447537854" Name="Static_Sibilance_Remover_Male (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</Custom>
 				<ShareSets>
+					<Plugin Id="992902880" Name="Small_Tiled_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1252796875" Name="Light_Expander" LibName="Wwise Expander" LibId="7143427"/>
 					<Plugin Id="3851006675" Name="Secret_message_Distant" LibName="Wwise Harmonizer" LibId="9043971"/>
+					<Plugin Id="3948262040" Name="Octave_Down" LibName="Wwise Pitch Shifter" LibId="8912899"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
@@ -292,6 +312,23 @@
 								<MediaRef Id="301750876"/>
 								<MediaRef Id="581837591"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="434070397"/>
+							<MediaRefs>
+								<MediaRef Id="630088624"/>
+								<MediaRef Id="916764331"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="1047714102"/>
@@ -299,6 +336,11 @@
 								<MediaRef Id="434401296"/>
 								<MediaRef Id="583465700"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="2821599287"/>
@@ -306,6 +348,11 @@
 								<MediaRef Id="135631757"/>
 								<MediaRef Id="639437876"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="3803999823"/>
@@ -313,6 +360,11 @@
 								<MediaRef Id="90556042"/>
 								<MediaRef Id="1001551563"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="3187576023"/>
@@ -320,6 +372,11 @@
 								<MediaRef Id="989986742"/>
 								<MediaRef Id="1054698416"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="442379379"/>
@@ -327,6 +384,11 @@
 								<MediaRef Id="72610720"/>
 								<MediaRef Id="346616716"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="678048184"/>
@@ -334,6 +396,11 @@
 								<MediaRef Id="101436057"/>
 								<MediaRef Id="242984577"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -342,10 +409,16 @@
 						<MediaRef Id="564346088"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3240102813" Name="SmokePuff" DurationType="OneShot" DurationMin="0.4928118" DurationMax="0.4928118">
+				<Event Id="3240102813" Name="SmokePuff" MaxAttenuation="60" DurationType="OneShot" DurationMin="0.4928118" DurationMax="0.4928118">
 					<MediaRefs>
 						<MediaRef Id="34987519"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="992902880"/>
+							<PluginRef Id="1252796875"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3140745524" Name="SplashScreen" DurationType="OneShot" DurationMin="2.975325" DurationMax="3.333567">
 					<MediaRefs>
@@ -376,6 +449,23 @@
 								<MediaRef Id="494183269"/>
 								<MediaRef Id="519396977"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="434070397"/>
+							<MediaRefs>
+								<MediaRef Id="362710849"/>
+								<MediaRef Id="620598437"/>
+							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="1047714102"/>
@@ -383,6 +473,11 @@
 								<MediaRef Id="442831581"/>
 								<MediaRef Id="472751316"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="2821599287"/>
@@ -390,6 +485,11 @@
 								<MediaRef Id="400853693"/>
 								<MediaRef Id="504251328"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="3803999823"/>
@@ -397,6 +497,11 @@
 								<MediaRef Id="146363578"/>
 								<MediaRef Id="605194448"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="3187576023"/>
@@ -404,6 +509,11 @@
 								<MediaRef Id="151370063"/>
 								<MediaRef Id="645544646"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="442379379"/>
@@ -411,6 +521,11 @@
 								<MediaRef Id="226500119"/>
 								<MediaRef Id="340383686"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3807720919" Id="678048184"/>
@@ -418,6 +533,11 @@
 								<MediaRef Id="503821177"/>
 								<MediaRef Id="827235702"/>
 							</MediaRefs>
+							<PluginRefs>
+								<ShareSets>
+									<PluginRef Id="3948262040"/>
+								</ShareSets>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -425,6 +545,7 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3807720919" Name="EnemyType">
 					<Switches>
+						<Switch Id="434070397" Name="Manageress"/>
 						<Switch Id="442379379" Name="SkeletonDealer"/>
 						<Switch Id="678048184" Name="Harlequin"/>
 						<Switch Id="1047714102" Name="Rat"/>
@@ -436,7 +557,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{6CF1BFF8-F8CC-A439-B3D4-A844574E3C11}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{ABB60AF3-3CE3-8B85-8D5A-5842148DFAD6}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -560,5 +681,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8CF341F3-D5F9-CFB4-CF44-583712BD3EEA}</FileHash>
+	<FileHash>{C081CBAB-6C79-D10B-AFD0-C7C78D6E7688}</FileHash>
 </SoundBanksInfo>

@@ -14,6 +14,7 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	3807720919	EnemyType			\Default Work Unit\EnemyType	
 
 Switch	ID	Name	Switch Group			Notes
+	434070397	Manageress	EnemyType			
 	442379379	SkeletonDealer	EnemyType			
 	678048184	Harlequin	EnemyType			
 	1047714102	Rat	EnemyType			
@@ -24,11 +25,14 @@ Switch	ID	Name	Switch Group			Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	447537854	Static_Sibilance_Remover_Male (Custom)	Wwise Parametric EQ			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1252796875	Light_Expander	Wwise Expander			
 	3851006675	Secret_message_Distant	Wwise Harmonizer			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	21082198	CardShuffle	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\CardShuffle_C2A3E27A.wem		\Actor-Mixer Hierarchy\Default Work Unit\CardShuffle		129568
-	34987519	SmokePuff	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\PuffOfSmoke_76E5E189.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmokePuff		87028
+	34987519	SmokePuff	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\PuffOfSmoke_B267C3C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmokePuff		87028
 	72610720	SkeletonLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SkeletonLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SkeletonLose\SkeletonLose2VL		275768
 	90556042	SlimeLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SlimeLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SlimeLose\SlimeLose1VL		182336
 	101436057	HarlequinLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\HarlequinLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\HarlequinLose\HarlequinLose2VL		279668
@@ -44,6 +48,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	320646118	FootStep3	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\FootStep3_7930CC46.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep3		47088
 	340383686	SkeletonWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SkeletonWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SkeletonWIn\SkeletonWin1VL		252144
 	346616716	SkeletonLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SkeletonLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SkeletonLose\SkeletonLose1VL		319868
+	362710849	ManagerWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\ManagerWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\ManageressWin\ManagerWin2VL		395248
 	363109706	WizardWin3VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\WizardWin3VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\WizardWin\WizardWin3VL		452168
 	400853693	DreadPatronWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\DreadPatronWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\DreadPatronWin\DreadPatronWin2VL		309976
 	406348161	VivaLasSplashScreen	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\VivaLasMages_40BBC9BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\VivaLasSplashScreen		580556
@@ -62,11 +67,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	583465700	RatLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\RatLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\RatLose\RatLose2VL		253636
 	599570550	SplashScreen	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SplashScreen_D0D0607A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SplashScreen		546856
 	605194448	SlimeWin2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SlimeWin2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SlimeWIn\SlimeWin2VL		330700
+	620598437	ManagerWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\ManagerWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\ManageressWin\ManagerWin1VL		393312
+	630088624	ManagerLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\ManagerLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\ManageressLose\ManagerLose2VL		517068
 	639437876	DreadPatronLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\DreadPatronLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\DreadPatronLose\DreadPatronLose1VL		468704
 	645544646	SnakeWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SnakeWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\SnakeWIn\SnakeWin1VL		483504
 	655079680	CardPlay1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\CardPlay1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CardPlay\CardPlay1		46524
 	827235702	HarlequinWin1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\HarlequinWin1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Win\HarlequinWin\HarlequinWin1VL		422940
 	828054099	FootStep4	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\FootStep4_C917E432.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep4		45944
+	916764331	ManagerLose1VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\ManagerLose1VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\ManageressLose\ManagerLose1VL		382372
 	989986742	SnakeLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SnakeLose2VL_E8142F60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SnakeLose\SnakeLose2VL		378712
 	1001551563	SlimeLose2VL	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\SlimeLose2VL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Lose\SlimeLose\SlimeLose2VL		257456
 	1008269798	FootStep1	D:\Unity Projects\Des207Game\DES502_WwiseProject\.cache\Mac\SFX\FootStep1_908481C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\FootStep1		35484
